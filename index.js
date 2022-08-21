@@ -80,7 +80,7 @@ goBtn.addEventListener("click", function(){
   tiles.forEach(function(tl){
     console.log("index inside tiles.forEach: " + index);
     // mouse over event to play song and show highlighted tile for hover over each tile
-     
+
     tl.addEventListener("mouseover", function(){
       console.log("index value inside mouseover event: " + index);
       // calling random function for random number between 0 and 7 for playing the first random note
