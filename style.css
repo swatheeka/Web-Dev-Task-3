@@ -1,23 +1,43 @@
 body {
-    font-family: 'Aclonica','Advent','Alegreya';
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*background-image: linear-gradient(60deg,cyan,#00BFFF,#6699CC);*/
-    background: linear-gradient(-45deg, #8b8b8b, #5a595a, #343434, #000000);
-    background-size: cover;
+    /*background: linear-gradient(#8b8b8b, #5a595a, #343434, #000000);*/
+    background-image: url("Brick2.png");
+    background-color: #1a1a1a;
+    background-size:300px;
     font-weight: bold;
-    color:white;
+    color:rgb(0, 0, 0);
     text-align: center;
-    border: double 3px;
+    justify-content: center;
+    
+    
+
     
 }
+.neonText {
+  color: rgb(0, 0, 0);
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 2px #fff,
+      0 0 4px #0fa,
+      0 0 8px #0fa,
+      0 0 9px #0fa,
+      0 0 10px #0fa,
+      0 0 10px #0fa;
+}
 h1{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    text-decoration: underline white 2px;
+    font-family:'Tangerine';
+    color: rgb(0, 0, 0);
+    font-size:300%;
+    
 }
 h2 {
-    font-family:'Times New Roman', Times, serif;
-    color: white;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa
 }
+
 button {
     color:white ;
     width: 60px;
@@ -30,7 +50,7 @@ button {
     margin-bottom: 2px;
     margin-top: 2px;
 }
-.form_button:hover{
+.go-button:hover{
 background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); 
 
 }
@@ -38,6 +58,7 @@ background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 input[type=text] {
     width: 20%;
     padding: 12px 20px;
+    background-color:rgb(186, 240, 99);
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid rgb(0, 0, 0);
@@ -62,10 +83,12 @@ input[type=text] {
     border: 1.5px solid black;
     color: white;
     border-radius:4px;
-    margin-right:2px;
-    margin-left:2px;
+    margin-right:4px;
+    margin-left:4px;
     margin-top:4px;
     margin-bottom:4px;
+    backdrop-filter:blur(2px);
+    
   }
   
   .tile:hover{
